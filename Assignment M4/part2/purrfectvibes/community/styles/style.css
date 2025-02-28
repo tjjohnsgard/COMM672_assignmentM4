@@ -1,0 +1,95 @@
+/* styles/style.css */
+
+body {
+    width: 960px;
+    max-width: 100%;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+img {
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav .active a {
+    color: #222E50;
+}
+
+h1, h2, h3 {
+    color: #222E50;
+    background-color: #EFEFEF;
+    border: 1px solid #B3679B;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+a {
+    color: #B3679B;
+}
+
+
+.community {
+}
+
+.event {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.event img {
+    width: 300px;
+    float: left;
+    margin-right: 15px;
+    border-radius: 10px;
+}
+
+.event h3 {
+    margin-top: 0;
+}
+
+.event p {
+    text-align: justify;
+}
+
+.event span {
+    display: block;
+    font-weight: bold;
+}
+
+.event hr {
+    margin-top: 15px;
+    border: none;
+    height: 2px;
+}
+
+.event:nth-child(1) hr {
+    background-color: #7CA982;
+}
+
+.event:nth-child(2) hr {
+    background-color: #E6A563;
+}
+
+.event:nth-child(3) hr {
+    background-color: #B36793;
+}
